@@ -1,5 +1,4 @@
 name = "cloudflare-composer-scribble"
-main = "workers-site/index.js"
 compatibility_date = "2023-12-01"
 compatibility_flags = [ "nodejs_compat" ]
 
