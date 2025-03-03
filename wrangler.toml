@@ -1,4 +1,5 @@
 name = "cloudflare-composer-scribble"
+main = "./src/index.tsx"
 compatibility_date = "2023-12-01"
 compatibility_flags = [ "nodejs_compat" ]
 
@@ -7,7 +8,3 @@ bucket = "./public"
 
 [observability]
 enabled = true
-
-[vars]
-UPSTASH_REDIS_REST_URL = "https://devoted-zebra-55925.upstash.io"
-YOGA_WHISTLES_ENDPOINT = "https://whistles.artlu.xyz/graphql"
